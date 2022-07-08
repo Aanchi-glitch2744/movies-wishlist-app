@@ -1,6 +1,6 @@
-*{
+/* *{
   margin: 0;
-}
+} 
 .navbar-light {
   color: azure;
   position: absolute;
@@ -22,11 +22,11 @@
 
 p{
   font-size: large;
-}
+}*/
 
 
 /* ==================================== */
-  .outer {
+  /* .outer {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,6 +42,7 @@ p{
     border-radius: 15px;
     transition: all .3s;
   }
+  
   
   .outer .form-control:focus {
     border-color: #167bff;
@@ -71,4 +72,4 @@ p{
   
   .forgot-password a {
     color: #167bff;
-  }
+  } */
