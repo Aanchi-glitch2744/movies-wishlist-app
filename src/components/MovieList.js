@@ -2,6 +2,7 @@ import React from 'react';
 
 const MovieList = (props) => {
 	const FavouriteComponent = props.favouriteComponent;
+	
 
 	return (
 		<>
@@ -13,6 +14,7 @@ const MovieList = (props) => {
 						className='overlay d-flex align-items-center justify-content-center'
 					>
 						<FavouriteComponent />
+						
 					</div>
 				</div>
 			))}
