@@ -42,7 +42,7 @@ function Registration() {
   return (
     <>
  
-        <div>
+        <div className="reg-style">
           {" "}
           {login ? (
             <form onSubmit={handleFormSubmit}>
@@ -107,7 +107,7 @@ function Registration() {
                 Register
               </button>
               <p onClick={handleClick} className="forgot-password text-right">
-                Already registered{" "}log in?
+                Already registered? {" "}Log in.
                 
               </p>
               {flag && (

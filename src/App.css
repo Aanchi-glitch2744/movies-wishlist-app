@@ -1,18 +1,26 @@
-/* *{
+*{
   margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
-.navbar-light {
+
+.reg-style {
+  padding: 16px;
+  background-image: linear-gradient(to right, red , yellow);
+
+}
+
+.reg-style .navbar-light {
   color: azure;
   position: absolute;
   top: 20px;
   right: 0;
 }
-.navbar-light > .container{
+.reg-style .navbar-light > .container{
 
   text-align: center;
   
 }
-.navbar-light > .container > h4{
+.reg .navbar-light > .container > h4{
     background-color: black;
     font-weight: bold;
     width: 180px;
@@ -20,20 +28,20 @@
     border-radius: 20px;
 }
 
-p{
+.reg-style p{
   font-size: large;
-}*/
+}
 
 
 /* ==================================== */
-  /* .outer {
+.reg-style .outer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
   }
   
-  .inner {
+  .reg-style .inner {
     width: 450px;
     margin: auto;
     background: #ffffff;
@@ -44,12 +52,12 @@ p{
   }
   
   
-  .outer .form-control:focus {
+  .reg-style  .outer .form-control:focus {
     border-color: #167bff;
     box-shadow: none;
   }
   
-  .outer h3 {
+  .reg-style .outer h3 {
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -57,11 +65,11 @@ p{
     padding-bottom: 20px;
   }
   
-  label{
+  .reg-style   label{
     font-weight: 600;
   }
-  .forgot-password,
-  .forgot-password{
+  .reg-style   .forgot-password,
+  .reg-style .forgot-password{
     text-align: right;
     font-size: 13px;
     padding-top: 10px;
@@ -70,6 +78,35 @@ p{
     cursor: pointer;
   }
   
-  .forgot-password a {
+  .reg-style   .forgot-password a {
     color: #167bff;
-  } */
+  }
+
+  .reg-style .form-group {
+      width: 30rem;
+      padding:auto;
+      margin:auto;
+      text-align:centre;
+      margin-bottom: 1rem;
+  }
+
+  .reg-style button {
+    width: 30rem;
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    margin-bottom: 1rem;
+}
+
+.reg-style h3 {
+  width: 30rem;
+  padding:auto;
+  margin:auto;
+  text-align:centre;
+  margin-bottom: 1rem;
+}
+
+.reg-style .forgot-password {
+  color: #094ca4;
+  font-size: 1rem;
+}
